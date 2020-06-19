@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "sourceMap": true,
+    "noEmit": false,
+    "outDir": "./.build/",
+    "target": "es2018",
+    "lib": [
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["./**/*.test.ts", "./**/.build"]
+}

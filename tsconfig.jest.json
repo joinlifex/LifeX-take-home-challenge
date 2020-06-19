@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "diagnostics": false,
+    "outDir": "./dist/",
+    "noEmit": true,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "lib": [
+      "es7",
+      "dom",
+      "esnext"
+    ],
+    "target": "es2018",
+    "allowJs": false,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "exclude": ["./**/.build"]
+}
