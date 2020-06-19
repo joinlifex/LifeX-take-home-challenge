@@ -13,3 +13,5 @@ jspm_packages
 coverage
 
 yarn.lock
+
+db.sql
